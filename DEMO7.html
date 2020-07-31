@@ -1,0 +1,88 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<html>
+<head >
+    <!--DEMO2 style -->
+    <style>
+    .jumbotron { 
+        background-color: #FFCCCC; 
+        color: #ffffff;
+    }
+    h1{
+        font-size: 70px;
+        text-transform: uppercase;
+        color: #303030;
+        font-weight: 800;
+    }
+    h2{
+        font-weight: 700;
+    }
+    /*<!--DEMO3 -->*/
+    body{
+        background-color: #D3D3D3; 
+    }
+    </style>
+    
+    <!--DEMO1 jumbotron-->
+    <div class="jumbotron text-center" style="margin-bottom: 0px">
+        <h1>Case study</h1> 
+    </div>
+    <!--DEMO7 navbar-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">Case study</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">                                 
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li> 
+            </ul> 
+        </div>
+    </nav>
+</head>
+<body>
+    <!--DEMO4 -->
+    <div class="container" style="margin-top:30px">
+        <div class="row">
+            <h2 class="text-center " style="margin-bottom : 120px ">CONTACT</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <p>Banana, TH</p>
+                <p>Phone: +66 87-9124xxx</p>
+                <p>Email: mama@email.com</p> 
+            </div>
+            <!--DEMO5 -->
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                    </div>
+                </div>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+                <!--DEMO6 -->
+                <div class="row float-right">
+                    <div class="col-md-12 form-group">
+                        <br>
+                            <button class="btn btn-primary" type="submit">Send</button>
+                        </br>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>
